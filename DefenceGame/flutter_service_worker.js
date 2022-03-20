@@ -4,30 +4,28 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "8dd7b5aee5ae65957d45e4d46fe2d06e",
-"index.html": "2a18ef0b7706005f937a015e4095e7af",
-"/": "2a18ef0b7706005f937a015e4095e7af",
-"main.dart.js": "86f24c03ae5d814cc708e30345c6c53e",
+"index.html": "3c1aaaa8f0a35e10542406d17dbc9072",
+"/": "3c1aaaa8f0a35e10542406d17dbc9072",
+"main.dart.js": "7c37a9ccad4316133c23f7ea760c98a5",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "b1525dc2de3a3f8b9b6b906c6990f073",
-"assets/AssetManifest.json": "f045cda291187a70296a83d909865c2e",
+"assets/AssetManifest.json": "209996afe5f210c809cee1d05f213208",
 "assets/NOTICES": "b7246914f3ff9b74a08ddc4788ca5f7f",
 "assets/FontManifest.json": "d751713988987e9331980363e24189ce",
+"assets/assets/images/boom_sheet.png": "f195c3d0cad00fe4be06c8724d5edb72",
 "assets/assets/images/pikachu.png": "6ce0085ec9b26e16406f5c28c8b90af2",
 "assets/assets/images/boom.png": "3172e300cf7c040566fb873e001c706b",
 "assets/assets/images/mewtwo.png": "b10e8f075f7f1ef2bb75326ad0a67ce8",
 "assets/assets/images/girl.png": "5494f728937b6f68a1f344570f67395d",
 "assets/assets/images/wall.png": "fd44adee50552c90965d8bc8aa846f52",
 "assets/assets/images/woman.png": "4d0d4f67d17a13e02501fbbe23a29b68",
+"assets/assets/images/squirtle.png": "bf08ef61e72700042632789ed020eb2a",
 "assets/assets/images/spritesheet.png": "9e133b5dee9f06d118d73189ff60d586",
-"assets/assets/images/stitch.png": "6a0fb6fef16fb3b16ac9908c1852ba02",
-"canvaskit/canvaskit.js": "43fa9e17039a625450b6aba93baf521e",
-"canvaskit/profiling/canvaskit.js": "f3bfccc993a1e0bfdd3440af60d99df4",
-"canvaskit/profiling/canvaskit.wasm": "a9610cf39260f60fbe7524a785c66101",
-"canvaskit/canvaskit.wasm": "04ed3c745ff1dee16504be01f9623498"
+"assets/assets/images/stitch.png": "6a0fb6fef16fb3b16ac9908c1852ba02"
 };
 
 // The application shell files that are downloaded before a service worker can

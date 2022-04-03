@@ -7480,32 +7480,32 @@ Ho:function Ho(){},
 Hp:function Hp(){},
 vr:function vr(){},
 Hq:function Hq(){},
-dx:function dx(a,b,c,d,e,f,g,h,i,j,k,l,m,n){var _=this
-_.da=1
+dx:function dx(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o){var _=this
+_.da=a
 _.cr=_.fn=!1
 _.hP=!0
 _.c5=_.bH=_.eU=null
 _.M=_.y2=100
 _.O=$
 _.U=null
-_.ek$=a
-_.cq$=b
-_.bu$=c
-_.fm$=d
-_.cp$=e
-_.bS$=f
-_.dx=g
-_.dy=h
-_.fr=i
+_.ek$=b
+_.cq$=c
+_.bu$=d
+_.fm$=e
+_.cp$=f
+_.bS$=g
+_.dx=h
+_.dy=i
+_.fr=j
 _.c=_.b=!1
 _.f=_.e=null
 _.r=$
-_.x=j
+_.x=k
 _.z=_.y=!1
-_.ch=k
-_.cx=l
-_.cy=m
-_.aF$=n},
+_.ch=l
+_.cx=m
+_.cy=n
+_.aF$=o},
 MP:function MP(a){this.a=a},
 z1:function z1(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p){var _=this
 _.ur$=a
@@ -33207,7 +33207,7 @@ o=A.T2(12)
 n=A.T2(23)
 m=p.a
 q.w8(p.pO(o*B.h.eC(m.gaH(m),p.b.a[0])+n))
-q.b8=new A.ie(0.1,new A.R7(q,p),!0)
+q.b8=new A.ie(1,new A.R7(q,p),!0)
 return A.O(null,r)}})
 return A.P($async$oF,r)},
 nb(){var s=0,r=A.Q(t.z),q=this,p,o,n,m,l,k
@@ -33242,7 +33242,7 @@ r.aK=A.b(s.a,"_appRef").ib(s.b,t.S)>=1000
 s=r.b8
 if(s!=null)s.a_(0,b)},
 w8(a){var s,r,q,p,o,n,m,l,k=null,j=this.aw
-if(j.length<100){s=A.a([],t.g)
+if(j.length<30){s=A.a([],t.g)
 r=B.C.cs()
 q=new A.ak(new Float64Array(16))
 q.bd()
@@ -33261,7 +33261,7 @@ o=A.a4()
 o.an(p)
 o.E()
 p=A.a([],t.i)
-l=new A.dx(k,B.O,s,A.t(t.K,t.b),r,k,q,o,B.o,2,new A.ah([]),new A.ah([]),p,$)
+l=new A.dx(0.5,k,B.O,s,A.t(t.K,t.b),r,k,q,o,B.o,2,new A.ah([]),new A.ah([]),p,$)
 l.cw(B.o,k,k,2,k,k)
 l.M=100
 l.U=a
@@ -33336,7 +33336,7 @@ A.b(p.a,q).ib(p.c,o)
 p=A.b(p.a,q).ib(p.d,t.e)
 o=b.aj(t.w).f
 s=t.W
-return new A.rY(A.tm(B.ro,A.a([new A.mq(this.z,r,t.wH),A.rq(r,new A.xU(B.jh,B.pb,B.pc,B.dI,r,B.j2,r,A.a([A.D7("Ver: 2022040401",A.hc(r,r,B.i,r,r,r,r,r,r,r,r,12,r,r,r,r,!0,r,r,r,r,r,r,r,r))],s),r),r,r,10,r,10,r),A.rq(r,A.D7("kills: "+A.e(n),A.hc(r,r,B.i,r,r,r,r,r,r,r,r,16,r,r,r,r,!0,r,r,r,r,r,r,r,r)),r,r,r,r,20,r),A.rq(o.a.a/5,A.D7("Wall HP: "+B.d.ci(p),A.hc(r,r,B.i,r,r,r,r,r,r,r,r,14,r,r,r,r,!0,r,r,r,r,r,r,r,r)),r,r,r,10,r,r),A.a8C(A.L0(A.D7("You Win",A.hc(r,r,B.i,r,r,r,r,r,r,r,r,24,r,r,r,r,!0,r,r,r,r,r,r,r,r)),r,r),n>=1000),A.a8C(A.L0(A.D7("You Lose",A.hc(r,r,B.i,r,r,r,r,r,r,r,r,24,r,r,r,r,!0,r,r,r,r,r,r,r,r)),r,r),p<=0)],s),B.c6),r)}}
+return new A.rY(A.tm(B.ro,A.a([new A.mq(this.z,r,t.wH),A.rq(r,new A.xU(B.jh,B.pb,B.pc,B.dI,r,B.j2,r,A.a([A.D7("Ver: 2022040402",A.hc(r,r,B.i,r,r,r,r,r,r,r,r,12,r,r,r,r,!0,r,r,r,r,r,r,r,r))],s),r),r,r,10,r,10,r),A.rq(r,A.D7("kills: "+A.e(n),A.hc(r,r,B.i,r,r,r,r,r,r,r,r,16,r,r,r,r,!0,r,r,r,r,r,r,r,r)),r,r,r,r,20,r),A.rq(o.a.a/5,A.D7("Wall HP: "+B.d.ci(p),A.hc(r,r,B.i,r,r,r,r,r,r,r,r,14,r,r,r,r,!0,r,r,r,r,r,r,r,r)),r,r,r,10,r,r),A.a8C(A.L0(A.D7("You Win",A.hc(r,r,B.i,r,r,r,r,r,r,r,r,24,r,r,r,r,!0,r,r,r,r,r,r,r,r)),r,r),n>=1000),A.a8C(A.L0(A.D7("You Lose",A.hc(r,r,B.i,r,r,r,r,r,r,r,r,24,r,r,r,r,!0,r,r,r,r,r,r,r,r)),r,r),p<=0)],s),B.c6),r)}}
 A.O9.prototype={}
 A.Ob.prototype={
 $1(a){return 0},

@@ -33465,7 +33465,7 @@ A.dH.prototype={
 a8(a){var s=0,r=A.P(t.H),q=this,p,o,n,m,l
 var $async$a8=A.Q(function(b,c){if(b===1)return A.M(c,r)
 while(true)switch(s){case 0:q.y2=A.a5v(1e4,0)
-q.e_=A.a5v(0.1,0.01)
+q.e_=A.a5v(0.5,0.05)
 s=2
 return A.X(q.bk(),$async$a8)
 case 2:q.gP()
@@ -33918,7 +33918,7 @@ p=p.gat(p)
 n=p}if(n==null)n=100
 p=A.b(q.gP().dx,"_cameraWrapper").a.a.a.an(0,1).a[0]
 q.gP()
-m=p/8*1.5
+m=p/8
 p=new A.t(new Float64Array(2))
 p.Y(m,m*(n/o))
 l=q.dy
@@ -34308,7 +34308,7 @@ a3(a,b){var s,r=this
 r.Jn(0,b)
 if(r.aY)return
 s=$.pk()
-r.aY=A.b(s.b,"_appRef").iu(s.c,t.S)>=100
+r.aY=A.b(s.b,"_appRef").iu(s.c,t.S)>=50
 s=r.aM
 if(s!=null)s.a3(0,b)},
 wO(a){var s,r,q,p,o,n,m,l,k=null,j=this.aA
@@ -34331,7 +34331,7 @@ o=A.a8()
 o.ah(p)
 o.E()
 p=A.a([],t.i)
-l=new A.dH(0.5,k,B.P,s,A.u(t.K,t.b),r,k,q,o,B.p,2,new A.al([]),new A.al([]),p,$)
+l=new A.dH(0.8,k,B.P,s,A.u(t.K,t.b),r,k,q,o,B.p,2,new A.al([]),new A.al([]),p,$)
 l.cB(B.p,k,k,2,k,k)
 l.N=100
 l.W=a
@@ -34377,7 +34377,7 @@ A.b(q.b,r).iu(q.d,p)
 q=A.b(q.b,r).iu(q.e,t.V)
 b.ak(t.l).toString
 p=t.J
-return new A.tF(A.o5(B.rt,A.a([new A.mV(this.Q,this.z,s,t.wH),A.fg(s,new A.yI(B.jj,B.pf,B.pg,B.dJ,s,B.j4,s,A.a([A.DY("Ver: 2022041201",A.hp(s,s,B.i,s,s,s,s,s,s,s,s,12,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s)],p),s),s,s,10,s,10,s),A.fg(s,A.DY("kills: "+A.e(o)+"/50",A.hp(s,s,B.i,s,s,s,s,s,s,s,s,16,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),s,s,s,s,20,s),A.fg(10,A.DY("Wall HP: "+B.d.cq(q),A.hp(s,s,B.i,s,s,s,s,s,s,s,s,14,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),s,s,s,10,s,s),A.aav(A.M7(A.DY("You Win",A.hp(s,s,B.i,s,s,s,s,s,s,s,s,24,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),s,s),o>=1000),A.aav(A.M7(A.DY("You Lose",A.hp(s,s,B.i,s,s,s,s,s,s,s,s,24,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),s,s),q<=0)],p),B.bp),s)}}
+return new A.tF(A.o5(B.rt,A.a([new A.mV(this.Q,this.z,s,t.wH),A.fg(s,new A.yI(B.jj,B.pf,B.pg,B.dJ,s,B.j4,s,A.a([A.DY("Ver: 2022041203",A.hp(s,s,B.i,s,s,s,s,s,s,s,s,12,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s)],p),s),s,s,10,s,10,s),A.fg(s,A.DY("kills: "+A.e(o)+"/50",A.hp(s,s,B.i,s,s,s,s,s,s,s,s,16,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),s,s,s,s,20,s),A.fg(10,A.DY("Wall HP: "+B.d.cq(q),A.hp(s,s,B.i,s,s,s,s,s,s,s,s,14,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),s,s,s,10,s,s),A.aav(A.M7(A.DY("You Win",A.hp(s,s,B.i,s,s,s,s,s,s,s,s,24,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),s,s),o>=1000),A.aav(A.M7(A.DY("You Lose",A.hp(s,s,B.i,s,s,s,s,s,s,s,s,24,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),s,s),q<=0)],p),B.bp),s)}}
 A.SA.prototype={
 $2(a,b){var s=null,r=b.bH.a,q=r[0],p=r[1]
 A.dj("sin(radians * 0): "+A.e(Math.sin(0)))

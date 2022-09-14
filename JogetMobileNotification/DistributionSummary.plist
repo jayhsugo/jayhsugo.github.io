@@ -10,7 +10,7 @@
 				<string>arm64</string>
 			</array>
 			<key>buildNumber</key>
-			<string>3</string>
+			<string>4</string>
 			<key>certificate</key>
 			<dict>
 				<key>SHA1</key>
@@ -291,7 +291,7 @@
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>1e4a8c27-e276-494e-89fa-1ec2efe0f0c4</string>
+				<string>04aa0949-fa0d-4d82-9c12-87d88a7d517b</string>
 				<key>dateExpires</key>
 				<string>2023/8/30</string>
 				<key>name</key>
@@ -305,7 +305,7 @@
 				<string>DAH HSIN TECHNOLOGY PUBLISHING CO., LTD.</string>
 			</dict>
 			<key>versionNumber</key>
-			<string>0.0.3</string>
+			<string>0.0.4</string>
 		</dict>
 	</array>
 </dict>

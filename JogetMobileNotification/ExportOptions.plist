@@ -9,11 +9,11 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://www.google.com</string>
+		<string>https://jayhsugo.github.io/JogetMobileNotification/joget_notification.ipa</string>
 		<key>displayImageURL</key>
-		<string>https://www.google.com</string>
+		<string>https://jayhsugo.github.io/JogetMobileNotification/logo_57x57.png</string>
 		<key>fullSizeImageURL</key>
-		<string>https://www.google.com</string>
+		<string>https://jayhsugo.github.io/JogetMobileNotification/logo_512x512.png</string>
 	</dict>
 	<key>method</key>
 	<string>ad-hoc</string>

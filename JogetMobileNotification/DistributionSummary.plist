@@ -10,7 +10,7 @@
 				<string>arm64</string>
 			</array>
 			<key>buildNumber</key>
-			<string>4</string>
+			<string>2022092401</string>
 			<key>certificate</key>
 			<dict>
 				<key>SHA1</key>
@@ -179,6 +179,34 @@
 						<string>Apple Distribution</string>
 					</dict>
 					<key>name</key>
+					<string>package_info_plus.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>H7U9Q82KQ6</string>
+						<key>name</key>
+						<string>DAH HSIN TECHNOLOGY PUBLISHING CO., LTD.</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>0.4.5</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>CD852DE52D8A23BB2FEEAC6029168E9550016C39</string>
+						<key>dateExpires</key>
+						<string>2023/8/30</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
 					<string>path_provider_ios.framework</string>
 					<key>team</key>
 					<dict>
@@ -305,7 +333,7 @@
 				<string>DAH HSIN TECHNOLOGY PUBLISHING CO., LTD.</string>
 			</dict>
 			<key>versionNumber</key>
-			<string>0.0.4</string>
+			<string>0.0.5</string>
 		</dict>
 	</array>
 </dict>

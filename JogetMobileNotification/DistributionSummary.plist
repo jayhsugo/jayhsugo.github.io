@@ -10,7 +10,7 @@
 				<string>arm64</string>
 			</array>
 			<key>buildNumber</key>
-			<string>2022092401</string>
+			<string>2022101702</string>
 			<key>certificate</key>
 			<dict>
 				<key>SHA1</key>
@@ -333,7 +333,7 @@
 				<string>DAH HSIN TECHNOLOGY PUBLISHING CO., LTD.</string>
 			</dict>
 			<key>versionNumber</key>
-			<string>0.0.5</string>
+			<string>0.0.6</string>
 		</dict>
 	</array>
 </dict>

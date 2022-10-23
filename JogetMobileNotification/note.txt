@@ -1,0 +1,3 @@
+https://jayhsugo.github.io/JogetMobileNotification/joget_notification.ipa
+https://jayhsugo.github.io/JogetMobileNotification/logo_57x57.png
+https://jayhsugo.github.io/JogetMobileNotification/logo_512x512.png
